@@ -4,16 +4,9 @@ import discord
 import art
 from art import *
 import json
-from datetime import datetime
 #terminal
 tprint("Gon",font="block",chr_ignore=True)
 tprint('Discord Bot')
-#log times
-now = datetime.now()
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-g = open('data.json', 'a')
-with g as outfile:
-  json.dump(dt_string, outfile)
 
 # client
 client = discord.Client()
