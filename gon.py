@@ -21,7 +21,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
 # Go online
-    general_channel = client.get_channel(936454869433348106)
+    general_channel = client.get_channel()
 
     await general_channel.send('ONLINE \N{WHITE HEAVY CHECK MARK}')
     await general_channel.send('https://media.giphy.com/media/krip8KzajyDsilW6K5/giphy.gif')
@@ -65,4 +65,4 @@ async def on_message(message):
 
 
 # Run the client on the server
-client.run('OTM2NDQyNDk3ODk3NDc2MTc2.YfNQCQ.7HyeA4ApFDywfN4zv19aOOGuAAI')
+client.run('')
