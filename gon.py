@@ -43,6 +43,10 @@ async def on_message(message):
      
     if "g!ratio" in message.content:
      await message.channel.send("don't care + didn't ask + cry about it + stay mad + get real + L + mald seethe cope harder + hoes mad + basic + skill issue + ratio + you fell off + the audacity + triggered + any askers + redpilled + get a life + ok and? + cringe + touch grass + donowalled + not based + your're a (insert stereotype) + not funny didn't laugh + you're + grammar issue + go outside + get good + reported + ad hominem + GG! + ask deez + ez dap + straight cash + ratio again + final ratio + stay mad + stay pressed + pedophile + cancelled + done for + mad free + freer than air + rip bozo + slight_smile + cringe again + mad cuz bad + lol + irrelevant + cope + jealous + go ahead whine about it + your problem + don't care even more + sex offender + sex defender + not okay + glhf + problematic there!!+nuked+ called 911 + nuked multiverse + mid + ugly + rinnosuke is sexy + forgot to laugh + L + Ratio + Bozo + Mad + Reported + Unfollowed + Blocked + Cancelled + 9-1-1'ed + Swatted + Called The Mayor + Called The Governor + Called the President of the United States + Called the Dictator of North Korea + Called the President of Russia + Called the United Nations + Nuked + koishi sucks + your favorite character sucks + wriggle sucks")
+    #ben
+    
+    if message.content.startswith('g!my special friend'):
+        await message.channel.send("UR MOM L")
 #other
 #!ghelp
     if message.content.startswith('g!help'):
@@ -52,3 +56,5 @@ async def on_message(message):
         await message.channel.send(embed=embedVar)
 # Run the client on the server
 client.run('')
+
+
