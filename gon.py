@@ -47,6 +47,9 @@ async def on_message(message):
     
     if message.content.startswith('g!my special friend'):
         await message.channel.send("UR MOM L")
+    if message.content.startswith('^botservers'):
+
+        await message.channel.send("I'm in " + str(len(client.guilds)) + " servers!")
 #other
 #!ghelp
     if message.content.startswith('g!help'):
