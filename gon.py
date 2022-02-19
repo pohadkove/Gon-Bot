@@ -47,14 +47,14 @@ async def on_message(message):
     
     if message.content.startswith('g!my special friend'):
         await message.channel.send("UR MOM L")
-    if message.content.startswith('^botservers'):
+    if message.content.startswith('g!botservers'):
 
         await message.channel.send("I'm in " + str(len(client.guilds)) + " servers!")
 #other
 #!ghelp
     if message.content.startswith('g!help'):
         embedVar = discord.Embed(title="Commands", color=0x00ff00)
-        embedVar.add_field(name="List of commands:", value="g!help \n g!event \n g!play \n g!minecraft \n g!test \n g!forza \n g!ratio \n", inline=False)
+        embedVar.add_field(name="List of commands:", value="g!help \n g!event \n g!play \n g!minecraft \n g!test \n g!forza \n g!ratio \n g!botservers", inline=False)
         await message.channel.send("https://media.giphy.com/media/4SdFG1BbqiJEI/giphy.gif")
         await message.channel.send(embed=embedVar)
 # Run the client on the server
